@@ -28,6 +28,7 @@ def correct_sentence_llama(raw_text):
                 "role": "system",
                 "content": (
                     "You are a grammar correction engine. "
+                    "For sequences of characters, form the closest single word in English. "
                     "Rewrite the input into a natural, grammatically correct English sentence. "
                     "Do not add or remove meaning. "
                     "Do not explain. "
